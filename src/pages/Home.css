@@ -1,0 +1,17 @@
+
+.row-layout {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.column-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram {
+
+}
