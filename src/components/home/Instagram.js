@@ -4,7 +4,7 @@ function Instagram() {
   return (
     <>
       <h1>
-        Instagram
+        Instagram sucks
       </h1>   
     </>
     )
