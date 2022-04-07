@@ -7,11 +7,14 @@ import './Home.css'
 
 function Home() {
   return(
-    <> 
-      <div className="row-layout">
+    <div style={{
+      backgroundImage: "url(/img/wheelpic.jpeg)", 
+      backgroundRepeat:"no-repeat",
+    }} >
+      <div className="row-layout" >
         <h1>thing</h1>
         <Welcome />
-          <div className="instagram">
+        <div className="instagram">
           <Instagram />
         </div>
       </div>
@@ -19,7 +22,7 @@ function Home() {
         <Service />
         <Contact /> 
       </div>
-    </>
+    </div>
 
   )
 }
