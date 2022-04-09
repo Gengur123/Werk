@@ -7,22 +7,18 @@ import './Home.css'
 
 function Home() {
   return(
-    <div style={{
-      backgroundImage: "url(/img/wheelpic.jpeg)", 
-      backgroundRepeat:"no-repeat",
-    }} >
-      <div className="row-layout" >
-        <h1>thing</h1>
+    <><section className="header">
+      <div className="row-layout">
         <Welcome />
-        <div className="instagram">
-          <Instagram />
-        </div>
+        {/* Work and talk about where to put instagram later  */}
+        {/* <div className="instagram">
+          <Instagram /> */}
+        {/* </div> */}
       </div>
-      <div className="column-layout">
+    </section><div className="column-layout">
         <Service />
-        <Contact /> 
-      </div>
-    </div>
+        <Contact />
+      </div></>
 
   )
 }

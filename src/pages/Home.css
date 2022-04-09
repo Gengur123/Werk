@@ -1,7 +1,14 @@
 
+.header {
+    background-image: url(/public/img/wheelpic.jpeg);
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+}
+
 .row-layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 
     
 }
