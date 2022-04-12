@@ -1,4 +1,6 @@
+/* Top to bottom styling order */
 
+/*  Header  */
 .header {
     background-image: url(/public/img/wheelpic.jpeg);
     background-repeat: no-repeat;
@@ -9,9 +11,11 @@
     display: flex;
     justify-content: center;
     position: relative;
-
-    
 }
+
+/*  Middle section  */
+
+/*  Services  */
 
 .column-layout {
     display: flex;
@@ -19,6 +23,8 @@
     align-items: center;
 }
 
-.instagram {
-
+.mid-page {
+    background-color: #000;
 }
+
+/* ^  Services  ^ */
