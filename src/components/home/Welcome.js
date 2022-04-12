@@ -4,8 +4,12 @@ import './Welcome.css'
 function Welcome() {
     return (
         <div>
-          <div className='border'>
-            <h1 className='text-white'>WELCOME TO <span className='text-red'>DEVIL'S WERK </span></h1>
+          <div>
+            <h1 className="title-text">DEVIL'S WERK</h1>
+            <div className="column-layout">
+              <span className="header-text">Check Out Our</span>
+              <button className="header-button"><a href="#">Inventory</a></button>
+            </div>
           </div>
         </div>
     )
