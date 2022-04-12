@@ -4,7 +4,8 @@
 .header {
     background-image: url(/public/img/wheelpic.jpeg);
     background-repeat: no-repeat;
-    padding-bottom: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .row-layout {
