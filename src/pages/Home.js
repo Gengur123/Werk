@@ -15,7 +15,7 @@ function Home() {
           <Instagram /> */}
         {/* </div> */}
       </div>
-    </section><div className="column-layout">
+    </section><div className="column-layout mid-page">
         <Service />
         <Contact />
       </div></>
