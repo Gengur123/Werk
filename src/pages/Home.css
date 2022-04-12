@@ -6,6 +6,9 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    background-color: rgba(21, 22, 26, 0.85);
+    background-blend-mode: darken;
+
 }
 
 .row-layout {
