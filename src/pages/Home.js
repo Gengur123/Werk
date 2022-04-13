@@ -19,6 +19,7 @@ function Home() {
       </section>
         <div className="column-layout mid-page">
           <Service />
+          <Instagram />
           <Contact />
         </div>
         

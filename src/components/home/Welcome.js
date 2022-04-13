@@ -18,7 +18,7 @@ function Welcome() {
               <div className='title-texts'>CHECK OUT OUR</div>
               <br/>
               <button className="header-button">
-                <Link to='/inventory'>Inventory</Link>
+                <Link to='/inventory'>INVENTORY</Link>
               </button>
             </div>
           </div>

@@ -6,7 +6,7 @@
 }
 .title-text {
   color: #db2347;
-  font-size: 65px;
+  font-size: 60px;
   font-style: italic;
   font-weight: 900;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 .title-texts {
   color: #ffffff;
-  font-size: 65px;
+  font-size: 60px;
   font-style: italic;
   font-weight: 900;
   text-align: center;
@@ -23,19 +23,21 @@
 
 .header-text {
   color: #ffff;
-  font-size: 65px;
+  font-size: 60px;
   font-style: italic;
   font-weight: 900;
   text-align: center;
 }
 
 .header-button {
-  background-color: red;
+  background-color: #db2347;
   border: 2px solid black;
-  border-radius: 15px;
+  border-radius: 40px;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   padding: 20px 30px;
+  font-style: italic;
+  font-weight: 900;
 }
 
 .header-button:hover {

@@ -1,11 +1,17 @@
 import React from 'react';
+import { Button } from '@mui/material';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Instagram() {
   return (
     <>
-      <h1>
-        Instagram sucks
-      </h1>   
+      <div className='title-text'>
+        OUR WORK
+        <Button >
+
+        </Button>
+      </div>   
+
     </>
     )
 }
