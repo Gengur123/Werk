@@ -1,0 +1,12 @@
+.instagram {
+  transition: 0.3s ease;
+  color: #db2347;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding: 1px;
+}
+.instagram:hover {
+  background-color: #212d45;
+  transform: scale(1.2);
+  cursor: pointer;
+}

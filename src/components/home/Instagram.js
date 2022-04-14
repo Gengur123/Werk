@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@mui/material';
+import './Instagram.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Instagram() {
@@ -7,11 +7,8 @@ function Instagram() {
     <>
       <div className='title-text'>
         OUR WORK
-        <Button >
-
-        </Button>
+          <a href="https://www.instagram.com/devilswerk/" target="_blank" rel="noopener noreferrer"><InstagramIcon className='instagram' sx={{ fontSize: 41 }}/></a>
       </div>   
-
     </>
     )
 }
