@@ -13,17 +13,6 @@ function App() {
   // App.js is gonna be where all our pages will be called and routed. 
   return (
         <Router>
-          {/* <ul>
-            <li>
-              <Link to='/about'>about</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-          </ul> */}
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />

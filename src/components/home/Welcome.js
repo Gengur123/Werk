@@ -6,17 +6,11 @@ function Welcome() {
     return (
         <div>
           <div>
-          <br/>
-          <br/>
-            <div className="title-text">DEVIL'S WERK</div>
-            <br/>
-            <br/>
             <div className="column-layout">
-              <span className="header-text">WE DON'T PLAY WITH WHEELS<br/> WE MAKE THEM <span className="red">WERK </span> FOR YOU</span>
-              <br/>
-              <br/>
-              <div className='title-texts'>CHECK OUT OUR</div>
-              <br/>
+            <div className="title-text">DEVIL'S WERK</div>
+              <div className="header-text">WE DON'T PLAY WITH WHEELS </div>
+              <div className="header-text">WE MAKE THEM <span className="red">WERK </span> FOR YOU</div>
+              <div className='title-texts check-out-our'>CHECK OUT OUR</div>
               <button className="header-button">
                 <Link to='/inventory'>INVENTORY</Link>
               </button>

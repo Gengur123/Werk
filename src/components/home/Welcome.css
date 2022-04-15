@@ -2,13 +2,16 @@
 .column-layout {
   display: flex;
   flex-direction: column;
+  padding: 50px 0px;
   /* gap: 50px; */
 }
+
 .title-text {
   color: #db2347;
   font-size: 60px;
   font-style: italic;
   font-weight: 900;
+  margin-bottom: 40px;
   text-align: center;
   
 }
@@ -19,6 +22,11 @@
   font-weight: 900;
   text-align: center;
   
+}
+
+.check-out-our {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .header-text {

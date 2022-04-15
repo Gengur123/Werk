@@ -7,7 +7,9 @@ function Instagram() {
     <>
       <div className='title-text'>
         OUR WORK
-          <a href="https://www.instagram.com/devilswerk/" target="_blank" rel="noopener noreferrer"><InstagramIcon className='instagram' sx={{ fontSize: 41 }}/></a>
+          <a href="https://www.instagram.com/devilswerk/" target="_blank" rel="noopener noreferrer">
+            <InstagramIcon className='instagram' sx={{ fontSize: 41 }}/>
+          </a>
       </div>   
     </>
     )

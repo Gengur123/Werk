@@ -6,13 +6,12 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <Link to='/' className="logo"><img src="http://via.placeholder.com/80x80"/></Link>
-        
+        <Link to='/' className="logo"><img src="http://via.placeholder.com/60x60"/></Link>
         <ul>
-          <li><Link to='/inventory'>Inventory</Link></li>
-          <li><Link to='/service'>Service</Link></li>
-          <li> <Link to='/about'>About Us</Link></li>
-          <li> <Link to="/contact">Contact Us</Link></li>
+          <li><button><Link to='/inventory'>Inventory</Link></button></li>
+          <li><button><Link to='/service'>Service</Link></button></li>
+          <li><button><Link to='/about'>About Us</Link></button></li>
+          <li><button><Link to="/contact">Contact Us</Link></button></li>
         </ul>
       </div>
     </>
