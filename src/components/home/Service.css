@@ -1,0 +1,48 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+.column-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    background: #cf2e2e;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 275px;
+    height: auto;
+
+}
+
+.service-img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h3 { 
+    color: #000;
+}
+
+.card li {
+    margin: 0;
+    color: #fff;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
