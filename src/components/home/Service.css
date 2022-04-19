@@ -5,6 +5,7 @@ li {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
 h1 {
     color: #fff;
 }
@@ -16,13 +17,27 @@ h1 {
 
 .card {
     background: #cf2e2e;
+=======
+.column-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background: #635757;
+>>>>>>> 6fa812815bd00bba6a7b1fa6d0d20e10e356eea6
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
     text-align: center;
+<<<<<<< HEAD
     width: 275px;
     height: auto;
+=======
+    width: 300px;
+    height: 360px;
+>>>>>>> 6fa812815bd00bba6a7b1fa6d0d20e10e356eea6
 
 }
 
@@ -31,6 +46,15 @@ h1 {
     border-top-right-radius: 25px;
 }
 
+<<<<<<< HEAD
+=======
+.service-img-2 {
+  margin-top: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+>>>>>>> 6fa812815bd00bba6a7b1fa6d0d20e10e356eea6
 h3 { 
     color: #000;
 }
@@ -45,4 +69,20 @@ h3 {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+<<<<<<< HEAD
+=======
+
+}
+
+.service-title h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+>>>>>>> 6fa812815bd00bba6a7b1fa6d0d20e10e356eea6
 }
