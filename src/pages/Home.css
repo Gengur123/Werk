@@ -1,5 +1,9 @@
 /* Top to bottom styling order */
 
+.flex-home {
+    display: flex;
+    flex-direction: column;
+}
 /*  Header  */
 .header {
     background-image: url(/public/img/wheelpic.jpeg);

@@ -1,46 +1,63 @@
-* {
-  box-sizing: border-box;
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-/* Float four columns side by side */
-.service-column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+.column-cards {
+    display: flex;
+    gap: 30px;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.service-row {margin: 0 -5px;}
+.card {
+    background: #635757;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 300px;
+    height: 360px;
 
-/* Clear floats after the columns */
-.service-row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
-/* Style the counter cards */
-.service-card {
-  padding: 16px;
-  text-align: center;
-  background-color: #807c7c;
-  width: 360px;
-  height: 360px;
-  border-radius: 25px;
+.service-img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
-.service-title {
-    color: #ffffff;
-    font-size: 30px;
-    font-style: italic;
-    margin-bottom: 40px;
+.service-img-2 {
+  margin-top: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .service-column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
+h3 { 
+    color: #000;
+}
+
+.card li {
+    margin: 0;
+    color: #fff;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.service-title h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
 }

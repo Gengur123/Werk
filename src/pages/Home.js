@@ -7,7 +7,7 @@ import './Home.css'
 
 function Home() {
   return(
-    <>
+    <div className='flex-home'>
       <section className="header">
         <div className="row-layout">
           <Welcome />
@@ -23,7 +23,7 @@ function Home() {
           <Contact />
         </div>
         
-    </>
+    </div>
 
   )
 }

@@ -7,6 +7,7 @@ import Inventory from './pages/Inventory';
 import Service from './pages/Service';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Navbar from './components/Navbar';
+import Subfooter from './components/Subfooter';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/inventory' element={<Inventory />} />
             <Route path='/service' element={<Service />} />
           </Routes>
+          <Subfooter/>
           <Footer />
         </Router>
   );
