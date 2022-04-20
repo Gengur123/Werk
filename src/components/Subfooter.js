@@ -4,7 +4,7 @@ import './Subfooter.css'
 function Subfooter() {
   return(
     <section className='column-subfooter'>
-      <img src='https://www.devilswerk.com/wp-content/uploads/brizy/15/assets/images/iW=600&iH=400&oX=32&oY=0&cW=536&cH=400/Equip-Step-Lip-conversion-2.jpg' className='contact-logo'></img>
+      <img src='/img/EquipWheel.jpg' alt='logo' className='contact-logo'></img>
       <div className='info-row'>
         <div className='column-1-3'>
           <h3>Contact</h3>
